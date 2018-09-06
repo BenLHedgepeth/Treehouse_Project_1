@@ -51,7 +51,7 @@ def team_greeting(soccer_groups):
 			with open(f'{filename}.txt', 'w') as soccer_newsletter:
 				letter = """\tDear {guardians},\n
 				The beginning of our new soccer season is soon approaching. We're excited for {person}
-				to be a part of the {team_name}'s! Just as a reminder them team will practice 2 times a week;
+				to be a part of the {team_name}'s! Just as a reminder the team will practice 2 times a week;
 				Tuesdays and Thursdays.	Our first practice is scheduled for Tuesday, September, 4.
 				""".format(guardians=players[_]['Guardian Name(s)'], person=players[_]['Name'], team_name=group)
 
